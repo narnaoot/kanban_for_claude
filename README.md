@@ -1,9 +1,11 @@
 # kanban_for_claude
+
 This repo gives you what you need to set up Claude-powered Kanban board in your Claude project.  (We're talking about the Claude AI product from Anthropic.) The board is a single file that lives in your Claude project. Claude reads it at the start of each session, displays it as an interactive board, and can update it based on your instructions.
 
 The board supports five columns (Backlog, Up Next, In Progress, Waiting On, Done), multiple color-coded projects, weekly planning, person tagging, priority flags, recurring tasks, and a hidden “Private” project that surfaces only for tagged weeks.
 
 **Setup**
+
 Step 1: Create a Claude Project
 Go to Claude.ai and create a new Project. Projects give Claude persistent context — files you add/attach are available at the start of every session.
 
